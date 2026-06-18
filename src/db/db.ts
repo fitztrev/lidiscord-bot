@@ -5,7 +5,7 @@ import log from '../log.js';
 
 const SCHEMA_VERSION = 3;
 
-export const db = new Database('sqlite.db');
+export const db = new Database('db/sqlite.db');
 db.pragma('journal_mode = WAL');
 
 createTables();

@@ -1,0 +1,7 @@
+services:
+  bot:
+    image: ghcr.io/fitztrev/lidiscord-bot:docker
+    restart: unless-stopped
+    volumes:
+      - /data/enbotsant/.env:/app/.env
+      - /data/enbotsant/db:/app/db

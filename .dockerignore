@@ -1,3 +1,6 @@
+.github
+
 .env
+db
 dist
 node_modules
